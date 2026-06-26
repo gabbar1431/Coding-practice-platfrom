@@ -1,0 +1,14 @@
+# Backend
+Backend/node_modules/
+Backend/.env
+
+# Frontend
+Fronted/node_modules/
+Fronted/.env
+
+# Common
+node_modules/
+.env
+dist/
+build/
+*.log
