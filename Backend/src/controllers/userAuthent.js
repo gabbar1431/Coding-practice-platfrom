@@ -131,13 +131,13 @@ const login = async (req, res) => {
         );
 
         // Set production cookie
-        res.cookie("token", token, {
-            maxAge: 60 * 60 * 1000,
-            httpOnly: true,
-            secure: true,
-            sameSite: "none",
-            path: "/"
-        });
+res.cookie("token", token, {
+    maxAge: 60 * 60 * 1000,
+    httpOnly: true,
+    secure: true,
+    sameSite: "none",
+    path: "/"
+});
 
         // Send response
         return res.status(200).json({
