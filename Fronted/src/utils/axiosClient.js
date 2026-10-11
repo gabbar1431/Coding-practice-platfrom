@@ -3,7 +3,7 @@
 import axios from "axios"
 
 const axiosClient =  axios.create({
-    baseURL: 'http://localhost:3000',
+    baseURL: 'https://coding-practice-platfrom-backend-qx4h.onrender.com',
     withCredentials: true,
     headers: {
         'Content-Type': 'application/json'
