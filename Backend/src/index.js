@@ -17,7 +17,6 @@ const videoRouter = require('./routes/videoCreator');
 
 app.use(cors({
     origin: [
-        'http://localhost:5173',
         'https://coding-practice-platfrom-frontend.onrender.com'
     ],
     credentials: true
